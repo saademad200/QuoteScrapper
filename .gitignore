@@ -1,0 +1,29 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Scrapy-specific
+.scrapy/
+spider_output/
+*.log
+
+# SQLite database file
+quotes.db
+
+# Environment files
+.env
+
+# Docker
+*.dockerfile
+*.docker-compose.yml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
